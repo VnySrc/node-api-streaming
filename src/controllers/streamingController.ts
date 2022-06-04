@@ -27,6 +27,6 @@ export const serveVideo = async (req: Request, res: Response) => {
 }
 
 export const home =  async (req: Request, res: Response) => {
-    res.send("Home")
+    res.send("Api desenvolvida por @VnySrc")
     res.end
 }
