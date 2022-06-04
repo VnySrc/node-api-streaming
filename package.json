@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.ts",
     "tsc": " tsc",
     "postinstall": "npm run tsc",
-    "start": "node app/dist/server.js"
+    "start": "tsc && node app/dist/server.js"
   },
   "keywords": [],
   "author": "",
